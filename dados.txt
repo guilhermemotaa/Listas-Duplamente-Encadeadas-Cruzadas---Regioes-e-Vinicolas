@@ -1,0 +1,59 @@
+R;Serra Gaucha;RS
+V;Casa Valduga;Vinho Tinto, Espumante;Bento Goncalves;1875
+V;Miolo;Vinho Tinto, Vinho Branco;Bento Goncalves;1897
+V;Salton;Espumante, Vinho Tinto;Bento Goncalves;1910
+V;Aurora;Vinho Tinto, Vinho Branco, Suco de Uva;Bento Goncalves;1931
+V;Cave Geisse;Espumante;Pinto Bandeira;1979
+V;Don Giovanni;Vinho Tinto;Farroupilha;1974
+V;Peterlongo;Espumante;Garibaldi;1913
+V;Chandon Brasil;Espumante;Garibaldi;1973
+
+R;Vale dos Vinhedos;RS
+V;Casa Perini;Vinho Tinto, Espumante;Farroupilha;1930
+V;Lidio Carraro;Vinho Tinto;Vale dos Vinhedos;1998
+V;Pizzato;Vinho Tinto, Vinho Branco;Vale dos Vinhedos;1977
+V;Vinicola Cave de Amadeu;Vinho Tinto;Bento Goncalves;1965
+V;Boscato;Vinho Tinto, Espumante;Vale dos Vinhedos;1988
+
+R;Campanha Gaucha;RS
+V;Almaunica;Vinho Tinto;Santana do Livramento;2003
+V;Guatambu;Vinho Tinto, Vinho Branco;Candiota;1999
+V;Cordilheira de Sant'Ana;Vinho Tinto;Santana do Livramento;2002
+V;Suzin;Vinho Tinto;Dom Pedrito;1998
+
+R;Serra do Sudeste;RS
+V;Casa Silva Gerard;Vinho Tinto;Encruzilhada do Sul;2004
+V;Cave Petit;Vinho Tinto, Espumante;Piratini;2008
+
+R;Vale do Sao Francisco;BA
+V;Miolo Vale do Sao Francisco;Vinho Tinto, Espumante;Casa Nova;2000
+V;Ouro Verde;Vinho Tinto, Vinho Branco;Lagoa Grande;2005
+V;Botticelli;Espumante;Santa Maria da Boa Vista;2007
+
+R;Vale do Sao Francisco;PE
+V;Terranova;Vinho Tinto;Petrolina;2003
+V;Vitivinicola Santa Maria;Vinho Tinto, Vinho Branco;Santa Maria da Boa Vista;1998
+
+R;Planalto Catarinense;SC
+V;Villa Francioni;Vinho Tinto, Espumante;Sao Joaquim;2005
+V;Suzin Sao Joaquim;Vinho Tinto;Sao Joaquim;2007
+V;Quinta Santa Maria;Vinho Tinto;Sao Joaquim;2010
+V;Pericó;Espumante, Vinho Tinto;Sao Joaquim;2003
+
+R;Vale do Rio do Peixe;SC
+V;Vinicola Videira;Vinho Tinto, Suco de Uva;Videira;1965
+V;Toneleiro;Vinho Tinto;Pinheiro Preto;1980
+
+R;Vale do Rio do Peixe;PR
+V;Vinicola Colonial;Vinho Tinto, Vinho Branco;Marialva;1985
+V;Vinhedos Sao Francisco;Vinho Tinto;Bandeirantes;1978
+
+R;Serra da Mantiqueira;MG
+V;Vinicola Sanjo;Vinho Tinto, Espumante;Sao Bento do Sapucai;2005
+V;Vinicola Maria Maria;Vinho Tinto;Sao Bento do Sapucai;2011
+V;Villa Silvestre;Vinho Tinto, Vinho Branco;Cambuí;2009
+
+R;Vale do Sao Miguel;RS
+V;Casa Marchetti;Vinho Tinto;Farroupilha;1990
+V;Adega Cassini;Vinho Tinto, Vinho Branco;Nova Pádua;1995
+V;Villaggio Grando;Vinho Tinto, Espumante;Farroupilha;2000
