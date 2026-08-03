@@ -1,59 +1,284 @@
 R;Serra Gaucha;RS
-V;Casa Valduga;Vinho Tinto, Espumante;Bento Goncalves;1875
-V;Miolo;Vinho Tinto, Vinho Branco;Bento Goncalves;1897
-V;Salton;Espumante, Vinho Tinto;Bento Goncalves;1910
-V;Aurora;Vinho Tinto, Vinho Branco, Suco de Uva;Bento Goncalves;1931
-V;Cave Geisse;Espumante;Pinto Bandeira;1979
-V;Don Giovanni;Vinho Tinto;Farroupilha;1974
-V;Peterlongo;Espumante;Garibaldi;1913
-V;Chandon Brasil;Espumante;Garibaldi;1973
+V;Vinicola Vale Sereno;Vinho Fino, Vinho Rose;Pinto Bandeira;1953
+V;Guatambu;Suco de Uva;Bento Goncalves;1950
+V;Aurora;Vinho Rose, Vinho Branco;Pinto Bandeira;2015
+V;Casa Marchetti;Suco de Uva, Licor de Uva;Nova Pádua;1987
+V;Vinhedos Sao Francisco;Vinho Rose;Farroupilha;1933
 
 R;Vale dos Vinhedos;RS
-V;Casa Perini;Vinho Tinto, Espumante;Farroupilha;1930
-V;Lidio Carraro;Vinho Tinto;Vale dos Vinhedos;1998
-V;Pizzato;Vinho Tinto, Vinho Branco;Vale dos Vinhedos;1977
-V;Vinicola Cave de Amadeu;Vinho Tinto;Bento Goncalves;1965
-V;Boscato;Vinho Tinto, Espumante;Vale dos Vinhedos;1988
+V;Vinicola Videira;Vinho Fino, Vinho do Porto Nacional, Espumante;Garibaldi;1905
+V;Casa Silva Gerard;Licor de Uva, Vinho Branco, Vinho Fino;Bento Goncalves;1898
+V;Almaunica;Espumante;Vale dos Vinhedos;1886
+V;Vinicola Quinta do Vale;Vinho Fino, Licor de Uva;Monte Belo do Sul;2011
+V;Vinicola Cave de Amadeu;Vinho Branco;Monte Belo do Sul;1957
+V;Vinicola Estrela do Sul;Vinho Rose;Vale dos Vinhedos;1910
 
 R;Campanha Gaucha;RS
-V;Almaunica;Vinho Tinto;Santana do Livramento;2003
-V;Guatambu;Vinho Tinto, Vinho Branco;Candiota;1999
-V;Cordilheira de Sant'Ana;Vinho Tinto;Santana do Livramento;2002
-V;Suzin;Vinho Tinto;Dom Pedrito;1998
+V;Cave Geisse;Vinho Rose;Pinheiro Machado;1915
+V;Vinicola Encanto da Serra;Vinho Branco, Vinho Rose, Vinho Fino;Pinheiro Machado;1920
+V;Vinicola Vale Verde;Vinho de Mesa;Candiota;2008
+V;Pericó;Vinho Tinto, Vinho de Mesa, Suco de Uva;Santana do Livramento;1898
+V;Toneleiro;Vinho Rose, Suco de Uva;Santana do Livramento;1931
+V;Vinicola Nova Aurora;Vinho Branco, Vinho do Porto Nacional, Vinho de Mesa;Bage;1887
+V;Vinicola Vale Fertil;Espumante, Vinho do Porto Nacional, Vinho de Mesa;Bage;2010
 
 R;Serra do Sudeste;RS
-V;Casa Silva Gerard;Vinho Tinto;Encruzilhada do Sul;2004
-V;Cave Petit;Vinho Tinto, Espumante;Piratini;2008
+V;Suzin Sao Joaquim;Vinho do Porto Nacional, Vinho Fino;Piratini;2008
+V;Vinicola Reserva Grande;Vinho Rose;Pinheiro Machado;1965
+V;Vinicola Aguas Claras;Vinho do Porto Nacional, Licor de Uva;Encruzilhada do Sul;1933
+V;Vinicola Costa Alta;Vinho Branco;Canguçu;1875
+V;Villaggio Grando;Vinho do Porto Nacional, Suco de Uva, Vinho Rose;Piratini;1871
 
 R;Vale do Sao Francisco;BA
-V;Miolo Vale do Sao Francisco;Vinho Tinto, Espumante;Casa Nova;2000
-V;Ouro Verde;Vinho Tinto, Vinho Branco;Lagoa Grande;2005
-V;Botticelli;Espumante;Santa Maria da Boa Vista;2007
+V;Vinicola Herdade;Suco de Uva;Casa Nova;1878
+V;Vinicola Terroir Novo;Vinho Branco, Suco de Uva;Santa Maria da Boa Vista;1994
+V;Vinicola Bela Vista;Vinho do Porto Nacional;Lagoa Grande;2016
+V;Casa Valduga;Licor de Uva, Suco de Uva, Vinho Fino;Juazeiro;1974
 
 R;Vale do Sao Francisco;PE
-V;Terranova;Vinho Tinto;Petrolina;2003
-V;Vitivinicola Santa Maria;Vinho Tinto, Vinho Branco;Santa Maria da Boa Vista;1998
+V;Vinicola Terra Boa;Vinho Branco;Lagoa Grande;1980
+V;Vinicola Fonte Clara;Vinho Fino, Vinho do Porto Nacional;Santa Maria da Boa Vista;1883
+V;Pizzato;Vinho Tinto;Santa Maria da Boa Vista;1956
+V;Vinicola Domno;Suco de Uva;Petrolina;1918
+V;Vinicola Recanto das Videiras;Licor de Uva, Espumante, Suco de Uva;Petrolina;1941
 
 R;Planalto Catarinense;SC
-V;Villa Francioni;Vinho Tinto, Espumante;Sao Joaquim;2005
-V;Suzin Sao Joaquim;Vinho Tinto;Sao Joaquim;2007
-V;Quinta Santa Maria;Vinho Tinto;Sao Joaquim;2010
-V;Pericó;Espumante, Vinho Tinto;Sao Joaquim;2003
+V;Botticelli;Vinho Branco;Painel;2010
+V;Vinicola Bom Retiro;Vinho Tinto;Sao Joaquim;1893
+V;Lidio Carraro;Espumante;Painel;1994
+V;Vinicola Raizes;Suco de Uva, Vinho Fino;Sao Joaquim;1912
+V;Vinicola Vale das Uvas;Vinho Tinto, Vinho Fino;Bom Retiro;1986
+V;Peterlongo;Vinho Fino, Licor de Uva;Urupema;1918
+V;Don Giovanni;Suco de Uva, Vinho Tinto;Sao Joaquim;1950
 
 R;Vale do Rio do Peixe;SC
-V;Vinicola Videira;Vinho Tinto, Suco de Uva;Videira;1965
-V;Toneleiro;Vinho Tinto;Pinheiro Preto;1980
+V;Villa Francioni;Licor de Uva;Pinheiro Preto;1884
+V;Vinicola Gran Cruz;Vinho Branco, Espumante, Vinho Tinto;Videira;1930
+V;Terranova;Vinho Branco, Suco de Uva;Videira;1890
+V;Vinicola Larentis;Vinho do Porto Nacional, Vinho de Mesa;Tangara;1922
 
 R;Vale do Rio do Peixe;PR
-V;Vinicola Colonial;Vinho Tinto, Vinho Branco;Marialva;1985
-V;Vinhedos Sao Francisco;Vinho Tinto;Bandeirantes;1978
+V;Vinicola Panceri;Vinho Rose;Rosario do Ivai;1903
+V;Suzin;Licor de Uva, Vinho de Mesa;Marialva;1872
+V;Salton;Vinho Branco, Vinho do Porto Nacional;Bandeirantes;1999
+V;Vinicola Casa Antiga;Espumante, Vinho de Mesa;Marialva;1932
+V;Villa Silvestre;Vinho Rose, Espumante;Rosario do Ivai;2009
+V;Chandon Brasil;Vinho do Porto Nacional, Vinho Tinto;Maringa;1896
 
 R;Serra da Mantiqueira;MG
-V;Vinicola Sanjo;Vinho Tinto, Espumante;Sao Bento do Sapucai;2005
-V;Vinicola Maria Maria;Vinho Tinto;Sao Bento do Sapucai;2011
-V;Villa Silvestre;Vinho Tinto, Vinho Branco;Cambuí;2009
+V;Adega Bacchetta;Vinho Branco, Vinho do Porto Nacional;Cambuí;1939
+V;Vinicola Colina Verde;Suco de Uva, Vinho de Mesa;Cambuí;1937
+V;Cave Petit;Licor de Uva, Vinho Rose, Vinho Fino;Sao Bento do Sapucai;1893
+V;Quinta Santa Maria;Vinho Rose, Vinho Tinto;Sao Bento do Sapucai;1955
+V;Ouro Verde;Vinho Rose;Cambuí;1983
 
 R;Vale do Sao Miguel;RS
-V;Casa Marchetti;Vinho Tinto;Farroupilha;1990
-V;Adega Cassini;Vinho Tinto, Vinho Branco;Nova Pádua;1995
-V;Villaggio Grando;Vinho Tinto, Espumante;Farroupilha;2000
+V;Miolo Vale do Sao Francisco;Vinho Tinto, Vinho Branco, Vinho do Porto Nacional;Nova Pádua;2009
+V;Vinicola Boa Esperança;Vinho de Mesa;Nova Pádua;1980
+V;Vinicola Horizonte;Vinho Tinto;Sao Marcos;1963
+V;Vinicola Campo Largo;Vinho de Mesa;Nova Pádua;1933
+V;Vinicola Cordelier;Vinho de Mesa;Antônio Prado;1909
+V;Vinicola Basso;Espumante;Nova Pádua;1975
+V;Vinicola Pedra Redonda;Espumante;Sao Marcos;1975
+
+R;Campos de Cima da Serra;RS
+V;Miolo;Espumante, Vinho Branco;São José dos Ausentes;1879
+V;Vinicola Rio das Pedras;Suco de Uva, Vinho do Porto Nacional;São José dos Ausentes;1959
+V;Vinicola Alto da Serra;Suco de Uva, Vinho do Porto Nacional;Vacaria;1919
+V;Vitivinicola Santa Maria;Vinho de Mesa, Vinho Rose;Vacaria;1941
+V;Adega Cassini;Vinho do Porto Nacional, Vinho Fino;Bom Jesus;1877
+
+R;Serra Catarinense;SC
+V;Vinicola Sol Nascente;Espumante, Vinho Rose;Sao Joaquim;1897
+V;Boscato;Vinho Fino, Vinho de Mesa, Licor de Uva;Urubici;1981
+V;Vinicola Terras Altas;Vinho do Porto Nacional, Vinho Branco, Suco de Uva;Bom Jardim da Serra;1935
+V;Vinicola Monte Alegre;Vinho Fino;Sao Joaquim;2003
+
+R;Vale do Submedio Sao Francisco;PE
+V;Vinicola Vale Dourado;Vinho Fino, Vinho Branco;Lagoa Grande;1950
+V;Vinicola Sanjo;Vinho Rose;Lagoa Grande;1974
+V;Vinicola Vinhas do Ceu;Vinho Fino, Vinho Rose;Petrolina;1919
+V;Vinicola Colonial;Vinho Fino, Espumante;Lagoa Grande;1973
+V;Vinicola Encosta Verde;Vinho Tinto, Vinho Rose, Espumante;Petrolina;1980
+
+R;Altos Montes;RS
+V;Villa Baggio;Licor de Uva, Vinho do Porto Nacional;Antônio Prado;1924
+V;Casa Perini;Licor de Uva, Espumante, Vinho de Mesa;Flores da Cunha;1942
+V;Cordilheira de Sant'Ana;Vinho de Mesa, Vinho Branco, Vinho Fino;Flores da Cunha;1949
+V;Vinicola Serra Alta;Suco de Uva;Flores da Cunha;1876
+V;Vinicola Piccolotto;Suco de Uva;Nova Pádua;1888
+V;Vinicola Maria Maria;Vinho Fino, Suco de Uva;Antônio Prado;1968
+
+R;Monte Belo;RS
+V;Vinicola Rio Claro;Suco de Uva, Espumante;Monte Belo do Sul;1897
+V;Vinicola Casa do Vale;Suco de Uva, Espumante;Cotiporã;1882
+V;Vinicola 5082;Licor de Uva;Monte Belo do Sul;1988
+V;Vinicola 9702;Vinho de Mesa, Licor de Uva, Vinho Rose;Cotiporã;2010
+V;Vinicola 8305;Licor de Uva;Cotiporã;1936
+V;Vinicola 5050;Vinho do Porto Nacional, Licor de Uva;Monte Belo do Sul;1940
+V;Vinicola 8206;Vinho Rose;Monte Belo do Sul;1939
+
+R;Pinto Bandeira;RS
+V;Vinicola 6238;Vinho Branco, Espumante, Vinho do Porto Nacional;Pinto Bandeira;1968
+V;Vinicola 3503;Vinho Branco;Bento Goncalves;1974
+V;Vinicola 6421;Licor de Uva, Vinho Fino, Vinho Tinto;Pinto Bandeira;1977
+V;Vinicola 7381;Vinho Tinto, Vinho Fino, Suco de Uva;Pinto Bandeira;1960
+V;Vinicola 5892;Vinho Fino, Suco de Uva;Bento Goncalves;1926
+V;Vinicola 5471;Licor de Uva, Vinho Tinto;Bento Goncalves;1956
+
+R;Farroupilha e Regiao;RS
+V;Vinicola 3704;Espumante, Vinho Tinto;Nova Pádua;2014
+V;Vinicola 1444;Vinho Fino;Farroupilha;1988
+V;Vinicola 3977;Vinho Rose;Nova Pádua;1953
+V;Vinicola 4467;Vinho de Mesa, Vinho do Porto Nacional;Nova Pádua;1941
+V;Vinicola 7906;Vinho Branco, Licor de Uva;Farroupilha;2008
+V;Vinicola 1853;Suco de Uva, Vinho Branco;Farroupilha;1877
+V;Vinicola 5051;Vinho Tinto;Farroupilha;1931
+
+R;Vale do Rio das Antas;RS
+V;Vinicola 8758;Suco de Uva;Cotiporã;1935
+V;Vinicola 7043;Vinho Branco;Veranopolis;1949
+V;Vinicola 2771;Vinho Tinto, Vinho Rose, Licor de Uva;Nova Roma do Sul;1966
+V;Vinicola 7498;Vinho Branco;Nova Roma do Sul;1932
+V;Vinicola 2669;Vinho Branco, Vinho Tinto;Cotiporã;2006
+
+R;Cerrado Mineiro;MG
+V;Vinicola 7071;Vinho do Porto Nacional;Serra do Salitre;1957
+V;Vinicola 1207;Licor de Uva, Vinho Branco;Monte Carmelo;1962
+V;Vinicola 8532;Vinho Fino;Patrocinio;2003
+V;Vinicola 5425;Vinho do Porto Nacional, Licor de Uva, Suco de Uva;Monte Carmelo;1938
+V;Vinicola 6280;Vinho Branco;Monte Carmelo;1985
+V;Vinicola 4995;Vinho Fino, Vinho de Mesa;Patrocinio;1996
+V;Vinicola 6325;Licor de Uva;Patrocinio;1960
+
+R;Chapada Diamantina;BA
+V;Vinicola 6576;Vinho Rose, Vinho Tinto;Piata;1918
+V;Vinicola 2402;Vinho Fino;Ibicoara;2012
+V;Vinicola 4937;Licor de Uva, Vinho do Porto Nacional;Mucuge;1893
+V;Vinicola 5820;Vinho Fino;Piata;1932
+V;Vinicola 6016;Vinho de Mesa, Licor de Uva, Vinho Rose;Piata;1958
+V;Vinicola 7971;Vinho de Mesa, Vinho do Porto Nacional, Licor de Uva;Ibicoara;1939
+
+R;Planalto Central;GO
+V;Vinicola 5118;Vinho Branco;Cristalina;1919
+V;Vinicola 6169;Vinho do Porto Nacional;Cristalina;1917
+V;Vinicola 4138;Licor de Uva;Corumba de Goias;2004
+V;Vinicola 5636;Suco de Uva;Corumba de Goias;1928
+V;Vinicola 6912;Vinho Rose;Anapolis;2006
+V;Vinicola 3073;Vinho Tinto, Vinho do Porto Nacional;Cristalina;1944
+
+R;Vale do Rio Piracicaba;SP
+V;Vinicola 9042;Vinho Tinto;Charqueada;1942
+V;Vinicola 8690;Licor de Uva, Vinho de Mesa;Piracicaba;1883
+V;Vinicola 5136;Vinho Branco, Vinho do Porto Nacional;Sao Pedro;1995
+V;Vinicola 2213;Vinho Tinto, Espumante, Vinho Branco;Charqueada;1947
+V;Vinicola 2395;Vinho Branco;Charqueada;1976
+
+R;Circuito das Aguas;SP
+V;Vinicola 9561;Licor de Uva, Vinho do Porto Nacional;Socorro;1979
+V;Vinicola 6003;Vinho Tinto, Vinho Branco, Vinho Fino;Aguas de Lindoia;1924
+V;Vinicola 5335;Espumante;Aguas de Lindoia;1914
+V;Vinicola 2229;Vinho Tinto;Socorro;1985
+V;Vinicola 8699;Vinho Tinto, Suco de Uva;Socorro;1942
+
+R;Vale do Paraiba Paulista;SP
+V;Vinicola 2166;Vinho Rose;Sao Bento do Sapucai;1978
+V;Vinicola 2880;Suco de Uva, Espumante, Licor de Uva;Sao Bento do Sapucai;1888
+V;Vinicola 1977;Vinho Rose;Campos do Jordao;1982
+V;Vinicola 3037;Vinho Rose, Vinho Fino;Campos do Jordao;1998
+V;Vinicola 9847;Licor de Uva, Vinho Branco;Sao Bento do Sapucai;1980
+V;Vinicola 5102;Vinho Branco;Sao Bento do Sapucai;2017
+V;Vinicola 1339;Vinho Tinto, Espumante;Campos do Jordao;2002
+
+R;Serra Catarinense Norte;SC
+V;Vinicola 5557;Vinho Fino;Videira;1995
+V;Vinicola 2494;Vinho de Mesa, Vinho Fino;Fraiburgo;1952
+V;Vinicola 2713;Vinho de Mesa;Fraiburgo;1996
+V;Vinicola 5722;Vinho do Porto Nacional, Vinho Tinto;Fraiburgo;1892
+V;Vinicola 6153;Vinho de Mesa, Vinho Branco;Fraiburgo;2001
+V;Vinicola 1018;Licor de Uva, Vinho Fino, Vinho Tinto;Curitibanos;2002
+V;Vinicola 6927;Licor de Uva, Vinho do Porto Nacional, Vinho Fino;Curitibanos;1922
+
+R;Baixo Vale do Itajai;SC
+V;Vinicola 9998;Vinho Rose;Rio dos Cedros;1994
+V;Vinicola 2989;Suco de Uva;Timbo;1910
+V;Vinicola 6091;Vinho Tinto, Vinho Fino, Vinho do Porto Nacional;Pomerode;1899
+V;Vinicola 8560;Espumante;Rio dos Cedros;1944
+V;Vinicola 9337;Vinho Fino, Licor de Uva;Rio dos Cedros;1932
+V;Vinicola 8483;Espumante, Vinho Fino, Vinho Branco;Timbo;2000
+
+R;Vale do Taquari;RS
+V;Vinicola 2143;Vinho Fino, Vinho de Mesa;Muçum;1938
+V;Vinicola 1042;Vinho Rose, Licor de Uva;Lajeado;1984
+V;Vinicola 9824;Vinho de Mesa, Vinho do Porto Nacional;Muçum;2009
+V;Vinicola 7180;Vinho de Mesa, Suco de Uva;Muçum;1931
+V;Vinicola 7274;Vinho Fino;Lajeado;1951
+
+R;Vale do Cai;RS
+V;Vinicola 7246;Espumante, Licor de Uva;Sao Sebastiao do Cai;1902
+V;Vinicola 9229;Vinho de Mesa, Vinho Branco, Vinho Fino;Feliz;1895
+V;Vinicola 9617;Vinho Tinto, Espumante;Feliz;1909
+V;Vinicola 2225;Vinho Rose, Vinho de Mesa;Bom Principio;1971
+V;Vinicola 2315;Vinho do Porto Nacional, Vinho Fino;Feliz;1994
+V;Vinicola 9864;Vinho Branco;Sao Sebastiao do Cai;1943
+V;Vinicola 4727;Vinho Fino;Sao Sebastiao do Cai;1895
+
+R;Vale do Rio Pardo;RS
+V;Vinicola 3725;Vinho Tinto, Vinho do Porto Nacional;Vera Cruz;1884
+V;Vinicola 5806;Vinho de Mesa, Vinho Fino;Santa Cruz do Sul;1932
+V;Vinicola 7751;Espumante, Vinho do Porto Nacional, Vinho Branco;Santa Cruz do Sul;1967
+V;Vinicola 4945;Espumante, Suco de Uva;Vera Cruz;1935
+V;Vinicola 8529;Vinho Tinto, Licor de Uva;Vera Cruz;2009
+V;Vinicola 3588;Licor de Uva;Vera Cruz;1946
+V;Vinicola 7951;Licor de Uva, Vinho Rose;Santa Cruz do Sul;1968
+
+R;Serra do Cabral;MG
+V;Vinicola 2747;Vinho Fino;Buenopolis;2017
+V;Vinicola 5847;Vinho Tinto, Vinho Fino;Buenopolis;1872
+V;Vinicola 1803;Licor de Uva, Vinho Rose, Vinho Fino;Joaquim Felicio;1960
+V;Vinicola 4588;Vinho Rose;Joaquim Felicio;1894
+V;Vinicola 1645;Licor de Uva, Vinho Tinto;Buenopolis;1903
+V;Vinicola 2476;Vinho de Mesa, Vinho Fino;Joaquim Felicio;1921
+V;Vinicola 3165;Vinho de Mesa, Vinho Rose, Vinho Fino;Joaquim Felicio;1935
+
+R;Chapada dos Guimaraes;MT
+V;Vinicola 5835;Vinho Branco, Licor de Uva;Chapada dos Guimaraes;1906
+V;Vinicola 4696;Vinho do Porto Nacional, Vinho de Mesa;Chapada dos Guimaraes;1971
+V;Vinicola 1228;Vinho do Porto Nacional, Vinho Branco;Cuiaba;1964
+V;Vinicola 5295;Vinho Fino, Vinho de Mesa, Vinho Tinto;Chapada dos Guimaraes;1990
+V;Vinicola 1410;Vinho do Porto Nacional, Vinho de Mesa, Vinho Rose;Chapada dos Guimaraes;1886
+V;Vinicola 8606;Vinho Fino, Vinho Branco;Chapada dos Guimaraes;1881
+V;Vinicola 1609;Licor de Uva, Vinho Branco;Chapada dos Guimaraes;1930
+
+R;Vale do Sao Bartolomeu;GO
+V;Vinicola 7367;Vinho de Mesa, Vinho Fino;Cristalina;1976
+V;Vinicola 2622;Vinho Fino, Vinho Rose;Cristalina;1964
+V;Vinicola 4559;Licor de Uva, Suco de Uva;Luziania;1895
+V;Vinicola 7018;Vinho de Mesa, Vinho Tinto, Suco de Uva;Luziania;1918
+V;Vinicola 3001;Vinho Branco, Suco de Uva;Cristalina;1882
+
+R;Litoral Norte Catarinense;SC
+V;Vinicola 4990;Suco de Uva;Sao Francisco do Sul;2011
+V;Vinicola 4394;Suco de Uva, Vinho do Porto Nacional, Espumante;Sao Francisco do Sul;1870
+V;Vinicola 5542;Espumante;Garuva;1914
+V;Vinicola 2801;Espumante;Sao Francisco do Sul;1961
+V;Vinicola 4898;Vinho de Mesa, Vinho Tinto, Vinho Branco;Garuva;1883
+V;Vinicola 3076;Vinho do Porto Nacional, Vinho Branco;Sao Francisco do Sul;1991
+
+R;Vale do Piui;MG
+V;Vinicola 6931;Vinho Branco, Licor de Uva, Vinho Rose;Sao Bento do Sapucai;1881
+V;Vinicola 9543;Licor de Uva, Vinho Tinto;Sao Bento do Sapucai;1992
+V;Vinicola 7580;Vinho Branco, Licor de Uva;Piui;1888
+V;Vinicola 2323;Espumante, Vinho Branco;Sao Bento do Sapucai;1940
+V;Vinicola 9984;Vinho Fino, Vinho Rose;Piui;1999
+V;Vinicola 8048;Vinho Branco;Sao Bento do Sapucai;1980
+V;Vinicola 8398;Vinho Fino;Piui;1986
+
+R;Serra Gaucha Sul;RS
+V;Vinicola 7815;Vinho de Mesa;Nova Roma do Sul;1950
+V;Vinicola 5176;Espumante, Licor de Uva;Veranopolis;1893
+V;Vinicola 2398;Vinho Fino;Veranopolis;1965
+V;Vinicola 3131;Vinho Tinto, Vinho de Mesa, Licor de Uva;Veranopolis;1975
+V;Vinicola 6793;Vinho Tinto, Vinho Rose;Cotiporã;1949
+V;Vinicola 6761;Vinho do Porto Nacional;Veranopolis;1909
+V;Vinicola 8900;Vinho Branco;Nova Roma do Sul;2012
