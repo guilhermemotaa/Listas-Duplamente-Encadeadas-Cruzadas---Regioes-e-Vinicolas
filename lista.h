@@ -55,6 +55,6 @@ void carregarDeArquivo(ListaRegioes *l, char *caminho);
 void menuRegioes(ListaRegioes *l);
 void menuVinicolas(ListaRegioes *l);
 void menuRelatorios(ListaRegioes *l);
-
+void liberarLista (ListaRegioes *l);
 
 #endif
