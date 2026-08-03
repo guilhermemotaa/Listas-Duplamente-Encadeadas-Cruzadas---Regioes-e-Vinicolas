@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "lista.h"
+#define MAX 1000
 
 
 
@@ -10,7 +11,7 @@ ListaRegioes *criarListaVazia ()
 {
     ListaRegioes *l = (ListaRegioes*) malloc (sizeof(ListaRegioes));
     if (l == NULL) {
-        return NULL; // falha de alocação
+        return NULL; // falha de alocaÃ§Ã£o
     }
 
     l->quant = 0;
@@ -21,10 +22,10 @@ ListaRegioes *criarListaVazia ()
 
 Regioes *criarRegiao (char *c, char *n) // recebe o nome e estado da regiao
 {
-    Regioes *r = (Regioes*) malloc (sizeof(Regioes)); // aloca espaço pra regiao 
+    Regioes *r = (Regioes*) malloc (sizeof(Regioes)); // aloca espaÃ§o pra regiao 
     if (r == NULL) 
     {
-        return NULL; // falha de alocação
+        return NULL; // falha de alocaÃ§Ã£o
     }
 
     strcpy(r->nomeReg, n);
@@ -71,12 +72,12 @@ Regioes *buscaPorNomeReg (ListaRegioes *l, char *n)
     {
        if( strcmp (aux->nomeReg,n)==0) // nome igual ao que estamos procurando
         {
-            printf ("Região %s encontrada!\n", n); // se achar
+            printf ("RegiÃ£o %s encontrada!\n", n); // se achar
             return aux;
         }
         aux = aux->proximo;
     }
-    printf ("Região %s nao encontrada!\n", n); // percorreu tudo e nao achou 
+    printf ("RegiÃ£o %s nao encontrada!\n", n); // percorreu tudo e nao achou 
     return NULL;
 }
 
@@ -102,7 +103,7 @@ void alteraDadosReg (ListaRegioes *l, char *nomeAntigo)
             strcpy(aux->nomeReg, nomeNovo); // atualizamos os campos
             strcpy(aux->estado, estadoNovo);
 
-    } else { // se não for encontrado
+    } else { // se nÃ£o for encontrado
     return;
     }
 }
@@ -115,9 +116,9 @@ void removerReg(ListaRegioes *l, char* nome)
         return;
     }
     
-    Regioes *aux = buscaPorNomeReg(l,nome); // buscar a região
+    Regioes *aux = buscaPorNomeReg(l,nome); // buscar a regiÃ£o
     
-    if (aux == NULL) // se a busca não encontrar
+    if (aux == NULL) // se a busca nÃ£o encontrar
     {
         return;
     }
@@ -146,7 +147,7 @@ void removerReg(ListaRegioes *l, char* nome)
     aux->proximo->anterior = aux->anterior; // ("pulamos" o aux na lista, arrumando os ponteiros)
     }
     
-    Vinicolas *auxVin = aux->init; // liberação das vinicolas da regiao
+    Vinicolas *auxVin = aux->init; // liberaÃ§Ã£o das vinicolas da regiao
     while (auxVin != NULL) 
     {
         Vinicolas *prox = auxVin->prox; // guardamos o prox 
@@ -156,7 +157,7 @@ void removerReg(ListaRegioes *l, char* nome)
         auxVin = prox;
     }
 
-    printf("Região %s removida.\n", nome);
+    printf("RegiÃ£o %s removida.\n", nome);
 
     free (aux); // liberamos a memoria do aux
     l->quant--; 
@@ -187,7 +188,7 @@ int contaQuantReg (ListaRegioes *l)
 
 Vinicolas *criarVin(char *n, char *p, char *m, int ano)
 {   
-    Vinicolas *novo = (Vinicolas*) malloc (sizeof(Vinicolas)); // alocação de memoria para a vinicola
+    Vinicolas *novo = (Vinicolas*) malloc (sizeof(Vinicolas)); // alocaÃ§Ã£o de memoria para a vinicola
      
     if (novo == NULL) 
     {
@@ -247,7 +248,7 @@ Vinicolas *buscaPorNomeVin (Regioes *r, char *n)
         }
         aux = aux->prox;
     }
-    printf ("Vinicola %s nao encontrada!\n", n); // se saiu do laço a vinicola n foi encontrada
+    printf ("Vinicola %s nao encontrada!\n", n); // se saiu do laÃ§o a vinicola n foi encontrada
     return NULL;
 }
 
@@ -294,7 +295,7 @@ void removerVin(Regioes *r, char* nome)
 {
     if (r->quantVin==0)
     {
-        printf ("Nenhuma vinicola na região!\n"); // lista vazia
+        printf ("Nenhuma vinicola na regiÃ£o!\n"); // lista vazia
         return;
     }
     
@@ -329,6 +330,7 @@ void removerVin(Regioes *r, char* nome)
     aux->prox->ant = aux->ant;
     }
 
+    printf ("Vinicola %s removida com sucesso.\n", nome);
     free (aux); // liberamos a vinicola
     r->quantVin--;
 }
@@ -492,27 +494,28 @@ void contarVinPorMunicipio(Regioes *r, char *nome)
     return;
 }
 
-void carregarDeArquivo(ListaRegioes *l, char *caminho)
+void carregarDeArquivo(ListaRegioes *l, char *caminho) // recebe lista de regioes e o arquivo
 {
-    FILE *arq = fopen(caminho, "r");
+    FILE *arq = fopen(caminho, "r"); // abrir o arquivo para leitura
+
     if (arq == NULL) {
-        printf("Arquivo %s nao encontrado.\n", caminho);
+        printf("Arquivo %s nao encontrado.\n", caminho); 
         return;
     }
 
-    char linha[MAX];
-    Regioes *regiaoAtual = NULL;
+    char linha[MAX]; // guardar cada linha do arquivo
+    Regioes *regiaoAtual = NULL; // guarda ultima regiao inserida
 
-    while (fgets(linha, MAX, arq) != NULL) {
-        linha[strcspn(linha, "\n")] = '\0';
+    while (fgets(linha, MAX, arq) != NULL) { // le o arquivo linha por linha atÃ© o final
+        linha[strcspn(linha, "\n")] = '\0'; //remove a quebra de linha 
 
-        if (linha[0] == 'R') {
-            char nome[MAX], estado[MAX];
-            sscanf(linha, "R;%[^;];%[^;]", nome, estado);
-            inserirInicio(l, estado, nome);
-            regiaoAtual = l->inicio;
+        if (linha[0] == 'R') { // linha que comeÃ§a com R Ã© regiao
+            char nome[MAX], estado[MAX]; 
+            sscanf(linha, "R;%[^;];%[^;]", nome, estado); // captura ate encontrar ;
+            inserirInicio(l, estado, nome); // insere a regiao
+            regiaoAtual = l->inicio; // ultima regiao inserida
         }
-        else if (linha[0] == 'V' && regiaoAtual != NULL) {
+        else if (linha[0] == 'V' && regiaoAtual != NULL) { // linha comeÃ§a com v e jÃ¡ existe alguma regiao
             char nome[MAX], produtos[MAX], municipio[MAX];
             int ano;
             sscanf(linha, "V;%[^;];%[^;];%[^;];%d", nome, produtos, municipio, &ano);
@@ -523,62 +526,97 @@ void carregarDeArquivo(ListaRegioes *l, char *caminho)
     fclose(arq);
 }
 
+void liberarLista(ListaRegioes *l)
+{
+    if (l == NULL) {
+        return;
+    }
+    printf("Liberando lista... \n");
+
+    Regioes *aux = l->inicio;
+
+    while (aux != NULL) {
+        removerReg(l, aux->nomeReg);
+        aux = aux->proximo;
+    }
+
+    free(l); 
+}
+
 void menuRegioes(ListaRegioes *l)
 {
+
+
     int opcao;
     char nome[MAX], estado[MAX];
 
-    do {
-        printf("\n     Regioes     \n");
-        printf("1 - Inserir\n");
-        printf("2 - Buscar\n");
-        printf("3 - Alterar\n");
-        printf("4 - Remover\n");
-        printf("5 - Listar\n");
-        printf("6 - Quantidade\n");
-        printf("0 - Voltar\n");
-        printf("Opcao: ");
+
+    do  {
+        printf ("\n     Regioes     \n");
+        printf ("1 - Inserir\n");
+        printf ("2 - Buscar\n");
+        printf ("3 - Alterar\n");
+        printf ("4 - Remover\n");
+        printf ("5 - Listar\n");
+        printf ("6 - Quantidade\n");
+        printf ("0 - Voltar\n");
+        printf ("Opcao: ");
+
         scanf("%d", &opcao);
 
         switch (opcao) {
+
             case 1:
+
                 printf("Nome: ");
                 scanf(" %[^\n]", nome);
                 printf("Estado: ");
                 scanf(" %[^\n]", estado);
                 inserirInicio(l, estado, nome);
+
                 break;
 
             case 2:
+
                 printf("Nome: ");
                 scanf(" %[^\n]", nome);
                 buscaPorNomeReg(l, nome);
+
                 break;
 
             case 3:
+            
                 printf("Nome da regiao a alterar: ");
                 scanf(" %[^\n]", nome);
                 alteraDadosReg(l, nome);
+
                 break;
 
-            case 4: {
+            case 4: 
+
                 printf("Nome: ");
                 scanf(" %[^\n]", nome);
 
                 removerReg(l, nome);
                 
                 break;
-            }
+            
 
             case 5:
+
                 listarRegioes(l);
+
                 break;
 
+
             case 6:
+
                 printf("Quantidade de regioes: %d\n", contaQuantReg(l));
+
                 break;
 
             case 0:
+
                 break;
 
             default:
@@ -595,6 +633,7 @@ void menuVinicolas(ListaRegioes *l)
     scanf(" %[^\n]", nomeReg);
 
     Regioes *r = buscaPorNomeReg(l, nomeReg);
+
     if (r == NULL) {
         return;
     }
@@ -605,6 +644,7 @@ void menuVinicolas(ListaRegioes *l)
 
     do {
         printf("\n       Vinicolas de %s     \n", r->nomeReg);
+
         printf("1 - Inserir\n");
         printf("2 - Buscar\n");
         printf("3 - Alterar\n");
@@ -613,50 +653,68 @@ void menuVinicolas(ListaRegioes *l)
         printf("6 - Quantidade\n");
         printf("0 - Voltar\n");
         printf("Opcao: ");
+
         scanf("%d", &opcao);
 
         switch (opcao) {
             case 1:
+
                 printf("Nome: ");
                 scanf(" %[^\n]", nome);
+
                 printf("Produtos: ");
                 scanf(" %[^\n]", produtos);
+
                 printf("Municipio: ");
                 scanf(" %[^\n]", municipio);
+
                 printf("Ano de fundacao: ");
                 scanf("%d", &ano);
+
                 inserirVinInicio(r, nome, produtos, municipio, ano);
+
                 break;
 
             case 2:
+
                 printf("Nome: ");
                 scanf(" %[^\n]", nome);
                 buscaPorNomeVin(r, nome);
+
                 break;
 
             case 3:
+
                 printf("Nome da vinicola a alterar: ");
                 scanf(" %[^\n]", nome);
                 alteraDadosVin(r, nome);
+
                 break;
 
-            case 4: {
+
+            case 4: 
+
                 printf("Nome: ");
                 scanf(" %[^\n]", nome);
                 removerVin(r, nome);
                 
                 break;
-            }
+            
 
             case 5:
+
                 listarVin(r);
+
                 break;
 
             case 6:
+
                 printf("Quantidade de vinicolas: %d\n", contaQuantVin(r));
+
                 break;
 
             case 0:
+
                 break;
 
             default:
