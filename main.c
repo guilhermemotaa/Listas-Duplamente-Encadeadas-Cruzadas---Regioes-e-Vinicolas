@@ -20,11 +20,26 @@ int main()
         scanf("%d", &opcao);
 
         switch (opcao) {
-            case 1: menuRegioes(lista); break;
-            case 2: menuVinicolas(lista); break;
-            case 3: menuRelatorios(lista); break;
-            case 0: printf("Encerrando.\n"); break;
-            default: printf("Opcao invalida.\n");
+
+            case 1: 
+            menuRegioes(lista); 
+            break;
+
+            case 2: 
+            menuVinicolas(lista); 
+            break;
+
+            case 3: 
+            menuRelatorios(lista); 
+            break;
+
+            case 0: 
+            printf("Encerrando.\n"); 
+            liberarLista(lista);
+            break;
+
+            default: 
+            printf("Opcao invalida.\n");
         }
 
     } while (opcao != 0);
