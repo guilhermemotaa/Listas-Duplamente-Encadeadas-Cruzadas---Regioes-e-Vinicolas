@@ -536,8 +536,9 @@ void liberarLista(ListaRegioes *l)
     Regioes *aux = l->inicio;
 
     while (aux != NULL) {
+        Regioes *prox = aux->prox;
         removerReg(l, aux->nomeReg);
-        aux = aux->proximo;
+        aux = prox;
     }
 
     free(l); 
