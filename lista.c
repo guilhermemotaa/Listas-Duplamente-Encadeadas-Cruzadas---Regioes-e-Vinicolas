@@ -532,15 +532,12 @@ void liberarLista(ListaRegioes *l)
         return;
     }
     printf("Liberando lista... \n");
-
     Regioes *aux = l->inicio;
-
     while (aux != NULL) {
-        Regioes *prox = aux->prox;
+        Regioes *prox = aux->proximo;  
         removerReg(l, aux->nomeReg);
         aux = prox;
     }
-
     free(l); 
 }
 
